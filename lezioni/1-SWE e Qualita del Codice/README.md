@@ -26,17 +26,15 @@ Organizzare il codice in maniera consistente, leggibile e rimuovere difetti che 
 
 ### Benefici
 
-- Leggibilità <!-- spendiamo più tempo a leggere piuttosto che scrivere codice -->
+Leggibilità <!-- spendiamo più tempo a leggere piuttosto che scrivere codice -->
 
-<!-- .element: class="fragment" data-fragment-index="0" -->
+Risoluzione di problemi (bug fixing)
 
-- Risoluzione di problemi (bug fixing)
+<!-- .element: class="fragment" -->
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
+Collaborazione fra sviluppatori
 
-- Collaborazione fra sviluppatori
-
-<!-- .element: class="fragment" data-fragment-index="2" -->
+<!-- .element: class="fragment" -->
 
 <!-- New section -->
 
@@ -48,13 +46,13 @@ Necessità di lavorare in contemporanea sullo stesso progetto e ricevere un risc
 
 ### Benefici
 
-- Rapidità nello sviluppo
+Rapidità nello sviluppo
 
-- Parallelizzazione dei compiti
+Parallelizzazione dei compiti
 
 <!-- .element: class="fragment" -->
 
-- Revisione esterna <!-- e.g. del pair programming -->
+Revisione esterna <!-- e.g. del pair programming -->
 
 <!-- .element: class="fragment" -->
 
@@ -68,13 +66,13 @@ Necessità di confermare la correttezza del codice dal punto di vista semantico
 
 ### Benefici
 
-- Riduzione nell'introdurre nuovi problemi
+Riduzione nell'introdurre nuovi problemi
 
-- Correttezza delle funzionalità
+Correttezza delle funzionalità
 
 <!-- .element: class="fragment" -->
 
-- Aspettative della clientela
+Aspettative della clientela
 
 <!-- .element: class="fragment" -->
 
@@ -88,13 +86,13 @@ Necessità di avere una pipeline di esecuzione ben definita, modulare e riusabil
 
 ### Benefici
 
-- Rilevanza in Machine Learning
+Rilevanza in Machine Learning
 
-- Specializzazione dei componenti
+Specializzazione dei componenti
 
 <!-- .element: class="fragment" -->
 
-- Riutilizzo di componenti indipendenti
+Riutilizzo di componenti indipendenti
 
 <!-- .element: class="fragment" -->
 
@@ -112,13 +110,13 @@ Tecniche di scalabilità del software su larga scala e ottimizzazione del codice
 
 ### Benefici
 
-- Tempi ridotti di latenza
+Tempi ridotti di latenza
 
-- Riduzione dei costi
+Riduzione dei costi
 
 <!-- .element: class="fragment" -->
 
-- Migliore soddisfazione utente
+Migliore soddisfazione utente
 
 <!-- .element: class="fragment" -->
 
@@ -128,15 +126,15 @@ Tecniche di scalabilità del software su larga scala e ottimizzazione del codice
 
 Quando si parla di qualità del codice bisogna considerare
 
-- Convenzioni stilistiche di formattazione
+Convenzioni stilistiche di formattazione
 
 <!-- .element: class="fragment" -->
 
-- Difetti o sviste associati a una scrittura imprecisa
+Difetti o sviste associati a una scrittura imprecisa
 
 <!-- .element: class="fragment" -->
 
-- Inesattezze logiche
+Inesattezze logiche
 
 <!-- .element: class="fragment" -->
 
