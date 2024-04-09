@@ -18,9 +18,9 @@
 
 Necessità di ridurre gli errori e standardizzare il formato del codice di un software
 
-<!-- .element: class="fragment" -->
-
 Organizzare il codice in maniera consistente, leggibile e rimuovere difetti che compromettano le funzionalità
+
+<!-- .element: class="fragment" -->
 
 <!-- New subsection -->
 
@@ -28,13 +28,13 @@ Organizzare il codice in maniera consistente, leggibile e rimuovere difetti che 
 
 - Leggibilità <!-- spendiamo più tempo a leggere piuttosto che scrivere codice -->
 
-<!-- .element: class="fragment" -->
-
 - Risoluzione di problemi (bug fixing)
 
 <!-- .element: class="fragment" -->
 
 - Collaborazione fra sviluppatori
+
+<!-- .element: class="fragment" -->
 
 <!-- New section -->
 
@@ -48,13 +48,13 @@ Necessità di lavorare in contemporanea sullo stesso progetto e ricevere un risc
 
 - Rapidità nello sviluppo
 
-<!-- .element: class="fragment" -->
-
 - Parallelizzazione dei compiti
 
 <!-- .element: class="fragment" -->
 
 - Revisione esterna <!-- e.g. del pair programming -->
+
+<!-- .element: class="fragment" -->
 
 <!-- New section -->
 
@@ -68,13 +68,13 @@ Necessità di confermare la correttezza del codice dal punto di vista semantico
 
 - Riduzione nell'introdurre nuovi problemi
 
-<!-- .element: class="fragment" -->
-
 - Correttezza delle funzionalità
 
 <!-- .element: class="fragment" -->
 
 - Aspettative della clientela
+
+<!-- .element: class="fragment" -->
 
 <!-- New section -->
 
@@ -88,37 +88,13 @@ Necessità di avere una pipeline di esecuzione ben definita, modulare e riusabil
 
 - Rilevanza in Machine Learning
 
-<!-- .element: class="fragment" -->
-
 - Specializzazione dei componenti
 
 <!-- .element: class="fragment" -->
 
 - Riutilizzo di componenti indipendenti
 
-<!-- New section -->
-
-## Scaling & Optimization
-
-Necessità di sviluppare software che fornisca buone performance
-
 <!-- .element: class="fragment" -->
-
-Tecniche di scalabilità del software su larga scala e ottimizzazione del codice per singole attività
-
-<!-- New subsection -->
-
-### Benefici
-
-- Tempi ridotti di latenza
-
-<!-- .element: class="fragment" -->
-
-- Riduzione dei costi
-
-<!-- .element: class="fragment" -->
-
-- Migliore soddisfazione utente
 
 <!-- New section -->
 
@@ -126,9 +102,9 @@ Tecniche di scalabilità del software su larga scala e ottimizzazione del codice
 
 Necessità di sviluppare software che fornisca buone performance
 
-<!-- .element: class="fragment" -->
-
 Tecniche di scalabilità del software su larga scala e ottimizzazione del codice per singole attività
+
+<!-- .element: class="fragment" -->
 
 <!-- New subsection -->
 
@@ -136,21 +112,19 @@ Tecniche di scalabilità del software su larga scala e ottimizzazione del codice
 
 - Tempi ridotti di latenza
 
-<!-- .element: class="fragment" -->
-
 - Riduzione dei costi
 
 <!-- .element: class="fragment" -->
 
 - Migliore soddisfazione utente
+
+<!-- .element: class="fragment" -->
 
 <!-- New section -->
 
 ## Qualità del codice nel dettaglio
 
 Quando si parla di qualità del codice bisogna considerare
-
-<!-- .element: class="fragment" -->
 
 - Convenzioni stilistiche di formattazione
 
@@ -162,13 +136,15 @@ Quando si parla di qualità del codice bisogna considerare
 
 - Inesattezze logiche
 
+<!-- .element: class="fragment" -->
+
 <!-- New subsection -->
 
 ### Linters
 
 *Lint* sono i filaccetti di tessuto che fuoriscono dai vestiti.
 
-I linter rilevano i difetti (i filaccetti) dal codice per permetterci di correggerli
+I linter rilevano i difetti (i filaccetti) del codice per correggerli (o consigliarci di correggerli)
 
 <!-- New subsection -->
 
@@ -199,7 +175,7 @@ Esistono altri tool per il supporto allo sviluppo di software di qualità.
 
 - [mccabe](https://github.com/PyCQA/mccabe): controlla la complessità ciclomatica (McCabe, 1976) del software
 - [Black](https://github.com/psf/black): formattatore automatico del codice supportato dalla Python Software Foundation (PSF)
-- [pre-commit](https://pre-commit.com/): script per eseguire linters prima di un comando `bash git commit`
+- [pre-commit](https://pre-commit.com/): script per eseguire linters prima di un comando `git commit`
 
 <!-- New section -->
 
@@ -211,9 +187,80 @@ eccellenza che viene aggiornata continuamente con nuove convenzioni o quando pre
 
 <!-- New subsection -->
 
-La proposta può essere suddivisa in 5 macroaree:
+La guida può essere suddivisa in 5 macroaree:
 - Disposizione del codice
 - Gestione dello spazio vuoto
 - Commenti
 - Convenzioni di denominazione
 - Raccomandazioni di programmazione
+
+<!-- New subsection -->
+
+### PEP8: Disposizione del codice
+
+Descrive le convenzioni in merito a come il codice appare a prima vista. Vengono trattati dettagli come 
+l'indentazione (proprietà fondamentale in Python), le andate a capo e l'importazione di librerie.
+
+<!-- New subsection -->
+
+#### Indentazioni
+
+<div class="cols">
+
+```python
+foo = long_function_name(var_one, var_two,
+    var_three, var_four)
+
+def long_function_name(
+    var_one, var_two, var_three,
+    var_four):
+    print(var_one)
+```
+
+```python
+foo = long_function_name(var_one, var_two,
+                         var_three, var_four)
+
+def long_function_name(
+        var_one, var_two, var_three,
+        var_four):
+    print(var_one)
+```
+
+</div>
+
+<div class="cols">
+
+❌ Wrong
+
+✅ Correct
+
+</div>
+
+<!-- New subsection -->
+
+Hanging Indents
+
+<div class="cols">
+
+```python
+foo = long_function_name(
+  var_one, var_two,
+  var_three, var_four)
+```
+
+```python
+foo = long_function_name(
+    var_one, var_two,
+    var_three, var_four)
+```
+
+</div>
+
+<div class="cols">
+
+✅ Correct (optional)
+
+✅ Correct
+
+</div>
