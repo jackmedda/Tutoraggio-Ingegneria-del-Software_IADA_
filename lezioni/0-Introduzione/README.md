@@ -53,7 +53,7 @@ Se avete suggerimenti o correzioni da fare, aprite una [issue](https://github.co
 
 <div class="cols">
 
-1. Formattazione
+1. Qualità del codice
 2. Programmazione funzionale e a oggetti
 3. Gestione dati su larga scala
 4. Esecuzione ottimizzata
