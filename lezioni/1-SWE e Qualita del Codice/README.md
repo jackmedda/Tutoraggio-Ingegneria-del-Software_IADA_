@@ -28,13 +28,15 @@ Organizzare il codice in maniera consistente, leggibile e rimuovere difetti che 
 
 - Leggibilità <!-- spendiamo più tempo a leggere piuttosto che scrivere codice -->
 
+<!-- .element: class="fragment" data-fragment-index="0" -->
+
 - Risoluzione di problemi (bug fixing)
 
-<!-- .element: class="fragment" -->
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 - Collaborazione fra sviluppatori
 
-<!-- .element: class="fragment" -->
+<!-- .element: class="fragment" data-fragment-index="2" -->
 
 <!-- New section -->
 
