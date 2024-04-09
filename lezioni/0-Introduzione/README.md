@@ -23,7 +23,7 @@ Tutoraggio del corso di [Ingegneria del Software (IADA)](https://unica.coursecat
 
 - [giacomo.medda@unica.it](mailto:giacomo.medda@unica.it)
 - Microsoft Teams (Giacomo Medda)
-- [![Repo](https://badgen.net/badge/icon/jackmedda?icon=github&label)](https://github.com/jackmedda)
+- [![Repo](https://badgen.net/badge/icon/jackmedda?icon=github&label&scale=3)](https://github.com/jackmedda)
 
 </div>
 
@@ -41,7 +41,7 @@ Se avete suggerimenti o correzioni da fare, aprite una [issue](https://github.co
 
 <div>
 
-<img src="./img/github.png"/></img>
+<img src="./img/github.png" width="300px"/></img>
 
 </div>
 
@@ -51,10 +51,9 @@ Se avete suggerimenti o correzioni da fare, aprite una [issue](https://github.co
 
 <div class="cols">
 
-0. Introduzione 
 1. Formattazione
 2. Programmazione funzionale e a oggetti
-3. Gestione dei dati su larga scala
+3. Gestione dati su larga scala
 4. Esecuzione ottimizzata
 5. Esecuzione strutturata e monitoraggio
 6. Source Control (GitHub)
