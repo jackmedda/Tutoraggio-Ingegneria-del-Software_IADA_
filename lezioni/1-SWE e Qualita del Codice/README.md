@@ -10,7 +10,7 @@
   - Testing
   - Pipelines <!-- è necessario avere dei blocchi strutturati di pipeline preimpostate, e.g., data cleaning -->
   - Scaling & Optimization
-- Focus: **Formattazione**
+- Focus: **Qualità del codice**
 
 <!-- New section -->
 
@@ -237,6 +237,8 @@ def long_function_name(
 
 </div>
 
+<!-- .element: class="fragment" -->
+
 <!-- New subsection -->
 
 Hanging Indents
@@ -264,3 +266,5 @@ foo = long_function_name(
 ✅ Correct
 
 </div>
+
+<!-- .element: class="fragment" -->
