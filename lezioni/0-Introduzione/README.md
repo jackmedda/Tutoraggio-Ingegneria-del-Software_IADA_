@@ -33,17 +33,19 @@ Tutoraggio del corso di [Ingegneria del Software (IADA)](https://unica.coursecat
 
 Tutto il materiale, lezione per lezione, sarà disponibile su [Github](https://github.com/jackmedda/Tutoraggio-Ingegneria-del-Software_IADA_).
 
+<div>
+
+<img src="./img/github.png" width="300px"/></img>
+
+</div>
+
 Le slide saranno consultabili sotto forma di slideshow.
 
 <!-- .element: class="fragment" -->
 
 Se avete suggerimenti o correzioni da fare, aprite una [issue](https://github.com/jackmedda/Tutoraggio-Ingegneria-del-Software_IADA_/issues).
 
-<div>
-
-<img src="./img/github.png" width="300px"/></img>
-
-</div>
+<!-- .element: class="fragment" -->
 
 <!-- New section -->
 
