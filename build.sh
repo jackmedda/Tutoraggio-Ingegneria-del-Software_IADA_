@@ -85,7 +85,7 @@ function parse_args
     args=()
 
     # Optional args
-    dir="presentations"
+    dir="lezioni"
     markdown="README.md"
 
     # Named args
@@ -130,7 +130,8 @@ function parse_args
 function clean
 {
     find "$dir" -name "*.html" -type f -delete
-    find "$dir" -name "*.class" -type f -delete
+    find "$dir" -name "*.py" -type f -delete
+    find "$dir" -name "*.ipynb" -type f -delete
     rm -f "$root_dir/index.html"
 }
 
@@ -156,7 +157,7 @@ function create_index
     html_file="$root_dir/index.html"
     cp $root_dir/vendor/index.html "$html_file"
     sed -i "s|\"\./|\"./vendor/|g" "$html_file"
-    sed -i "s|{{TITLE}}|Tutorato di Reti 2022-20223|g" "$html_file"
+    sed -i "s|{{TITLE}}|Tutoraggio di Ingegneria del Software (IADA) 2023-2024|g" "$html_file"
     sed -i "s|data-markdown=\"README.md\"|data-markdown=\"./$markdown\"|g" "$html_file"
     if ! grep -q "\`\`\`mermaid" "$root_dir/$markdown"; then
         sed -i "/mermaid\.min\.js/d" "$html_file"
