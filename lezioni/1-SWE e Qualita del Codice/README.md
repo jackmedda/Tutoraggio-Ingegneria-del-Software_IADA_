@@ -233,11 +233,13 @@ def long_function_name(
 
 ❌ Wrong
 
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
 ✅ Correct
 
-</div>
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
-<!-- .element: class="fragment" -->
+</div>
 
 <!-- New subsection -->
 
@@ -263,8 +265,10 @@ foo = long_function_name(
 
 ✅ Correct (optional)
 
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
 ✅ Correct
 
-</div>
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
-<!-- .element: class="fragment" -->
+</div>
