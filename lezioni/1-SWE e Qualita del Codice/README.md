@@ -288,7 +288,7 @@ if (this_is_one_thing and
 ```python
 if (this_is_one_thing and
     that_is_another_thing):
-    # Since both conditions are true, we can frobnicate.
+    # Comment
     do_something()
 ```
 
@@ -373,9 +373,9 @@ result = some_function(
 
 ✅ Gli spazi sono preferiti
 
-<!-- .element: class="fragment" -->
-
 ❌ Non mischiare tabulazioni e spazi
+
+<!-- .element: class="fragment" -->
 
 <!-- New subsection -->
 
@@ -385,12 +385,14 @@ La Python standard library impone un limite conservativo di 79 caratteri
 
 Per i commenti e le docstring questo limite è ridotto a 72 caratteri
 
-<div class="cols">
-
 ```python
 ipotenusa_al_quadrato = (primo_cateto * primo_cateto
                          + secondo_cateto * secondo_cateto)
 ```
+
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+✅ Correct
 
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
@@ -402,19 +404,9 @@ with open('/path/to/some/file/you/want/to/read') as file_1, \
 
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
-</div>
-
-<div class="cols">
-
-✅ Correct
-
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
 ⚠️ Accettabile in certi contesti
 
 <!-- .element: class="fragment" data-fragment-index="1" -->
-
-</div>
 
 <!-- New subsection -->
 
@@ -745,7 +737,7 @@ def complex(real, imag=0.0):
     return magic(r=real, i=imag)
 
 def munge(sep: AnyStr = None): ...
-def munge(input: AnyStr, sep: AnyStr = None, limit=1000): ...
+def munge(input: AnyStr, limit=1000): ...
 
 x = 1
 long_variable = 3
@@ -816,7 +808,7 @@ finally: cleanup()
 
 ### PEP8: Convenzioni di denominazione
 
-Non usare mai la 'l' (elle minuscola), 'O' (o maiuscola), 'I' (la i maiuscola) come nome di variabile
+Non usare mai la 'l' (elle minuscola), 'O' (o maiuscola), 'I' (i maiuscola) come nome di variabile
 
 I nomi delle classi seguono la convenzione CamelCase, es. `NomeDiClasseInPython`
 
@@ -826,7 +818,7 @@ Per le variabili e le funzioni si usano nomi in minuscolo con l'underscore (_) c
 
 <!-- .element: class="fragment" -->
 
-Le costanti maiuscole con l'underscore come separatore, 'NOME_DI_COSTANTE'
+Le costanti maiuscole con l'underscore come separatore, `NOME_DI_COSTANTE`
 
 <!-- .element: class="fragment" -->
 
@@ -862,7 +854,7 @@ Singleton come `None` vanno comparati usando `is` o `is not`
 
 `if x` è diverso dallo scrivere `if x is not None` perché `x` potrebbe essere `False` in un certo contesto
 
-<!-- .element: class="fragment" -->
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 <div class="cols">
 
@@ -870,13 +862,13 @@ Singleton come `None` vanno comparati usando `is` o `is not`
 if foo is not None:
 ```
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
+<!-- .element: class="fragment" data-fragment-index="2" -->
 
 ```python
 if not foo is None:
 ```
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
+<!-- .element: class="fragment" data-fragment-index="2" -->
 
 </div>
 
@@ -884,11 +876,11 @@ if not foo is None:
 
 ✅ Correct
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
+<!-- .element: class="fragment" data-fragment-index="2" -->
 
 ❌ Wrong
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
+<!-- .element: class="fragment" data-fragment-index="2" -->
 
 </div>
 
@@ -1000,7 +992,7 @@ if not len(seq):
 
 <!-- New subsection -->
 
-Le sequence come stringhe, tuple e liste possono essere controllate in maniera diretta in una condizione
+Le sequence vuote come stringhe, tuple e liste possono essere controllate in maniera diretta in una condizione
 
 <div class="cols">
 
@@ -1026,7 +1018,7 @@ if not len(seq):
 
 <!-- New subsection -->
 
-Non comparare i valori booleani con l'operatore di uguaglianza (`==`)
+Non comparare i valori booleani con operatori
 
 <div class="cols">
 
