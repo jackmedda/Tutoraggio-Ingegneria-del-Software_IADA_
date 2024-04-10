@@ -124,11 +124,7 @@ Migliore soddisfazione utente
 
 ## Qualità del codice nel dettaglio
 
-Quando si parla di qualità del codice bisogna considerare
-
 Convenzioni stilistiche di formattazione
-
-<!-- .element: class="fragment" -->
 
 Difetti o sviste associati a una scrittura imprecisa
 
@@ -721,7 +717,9 @@ Il PEP8 specifica molti altri casi
 
 Se interessati, tutti i casi possono essere consultati nella pagina dedicata
 
-È doveroso analizzare alcune raccomandazioni aggiuntive
+È comunque doveroso analizzare alcune raccomandazioni aggiuntive
+
+<!-- .element: class="fragment" -->
 
 <!-- New subsection -->
 
@@ -818,7 +816,7 @@ Per le variabili e le funzioni si usano nomi in minuscolo con l'underscore (_) c
 
 <!-- .element: class="fragment" -->
 
-Le costanti maiuscole con l'underscore come separatore, `NOME_DI_COSTANTE`
+Per le costanti si usano nomi in maiuscolo con l'underscore come separatore, es. `NOME_DI_COSTANTE`
 
 <!-- .element: class="fragment" -->
 
@@ -838,7 +836,7 @@ I metodi della classe hanno sempre `class` come primo argomento
 
 Evitare di sovrascrivere nomi appartenenti al linguaggio
 
-Nomi che vengono tipicamente sovrascritti sono `sum`, `lambda`, `input`, `class`, `id`, `vars`
+Nomi che vengono tipicamente sovrascritti sono `sum`, `lambda`, `input`, `class`, `id`, `vars`, `list`, `set`
 
 <!-- .element: class="fragment" -->
 
