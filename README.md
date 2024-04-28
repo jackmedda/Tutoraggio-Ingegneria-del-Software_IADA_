@@ -29,9 +29,9 @@ Tutoraggio del corso di [Ingegneria del Software](https://unica.coursecatalogue.
 
 ## Binder Notebooks
 
-| Notebook | Binder Link |
-|----------|-------------|
-| 2-Object Oriented Programming | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jackmedda/Tutoraggio-Ingegneria-del-Software_IADA_/HEAD?labpath=lezioni%2F2-Object+Oriented+Programming%2Foop.ipynb) |
+| Notebook | Binder Link                                                                                                                                                                                       |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2-Object Oriented Programming | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jackmedda/Tutoraggio-Ingegneria-del-Software_IADA_/HEAD?filepath=lezioni%2F2-Object+Oriented+Programming%2Foop.ipynb) |
 
 
 <!-- New section -->
