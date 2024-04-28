@@ -17,12 +17,22 @@ Tutoraggio del corso di [Ingegneria del Software](https://unica.coursecatalogue.
 
 <div class="scrollable">
 
-| Lezione                                                                                                                                   | Titolo                   | Data       |
-| ----------------------------------------------------------------------------------------------------------------------------------------- |--------------------------|------------|
-| [0](https://jackmedda.github.io/Tutoraggio-Ingegneria-del-Software_IADA_/lezioni/0-Introduzione/)                                         | Introduzione             | 10/04/2024 |
-| [1](https://jackmedda.github.io/Tutoraggio-Ingegneria-del-Software_IADA_/lezioni/1-SWE%20e%20Qualita%20del%20Codice/#/8/23/1)             | SWE e Qualità del Codice | 10/04/2024 |
+| Lezione                                                                                                                      | Titolo                      | Data       |
+|------------------------------------------------------------------------------------------------------------------------------|-----------------------------|------------|
+| [0](https://jackmedda.github.io/Tutoraggio-Ingegneria-del-Software_IADA_/lezioni/0-Introduzione/)                            | Introduzione                | 10/04/2024 |
+| [1](https://jackmedda.github.io/Tutoraggio-Ingegneria-del-Software_IADA_/lezioni/1-SWE%20e%20Qualita%20del%20Codice/#/8/23/1) | SWE e Qualità del Codice    | 10/04/2024 |
+| [2](lezioni/2-Object Oriented Programming/oop.ipynb)                                          | Object Oriented Programming | 29/04/2024 |
 
 </div>
+
+<!-- New section -->
+
+## Binder Notebooks
+
+| Notebook | Binder Link |
+|----------|-------------|
+| 2-Object Oriented Programming | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jackmedda/Tutoraggio-Ingegneria-del-Software_IADA_/HEAD?labpath=lezioni%2F2-Object+Oriented+Programming%2Foop.ipynb) |
+
 
 <!-- New section -->
 

@@ -1,0 +1,7 @@
+notebook==6.5.5
+matplotlib
+seaborn
+rise
+pandas
+polars
+torch
