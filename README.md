@@ -17,11 +17,11 @@ Tutoraggio del corso di [Ingegneria del Software](https://unica.coursecatalogue.
 
 <div class="scrollable">
 
-| Lezione                                                                                                                      | Titolo                      | Data       |
-|------------------------------------------------------------------------------------------------------------------------------|-----------------------------|------------|
-| [0](https://jackmedda.github.io/Tutoraggio-Ingegneria-del-Software_IADA_/lezioni/0-Introduzione/)                            | Introduzione                | 10/04/2024 |
-| [1](https://jackmedda.github.io/Tutoraggio-Ingegneria-del-Software_IADA_/lezioni/1-SWE%20e%20Qualita%20del%20Codice) | SWE e Qualità del Codice    | 10/04/2024 |
-| [2](https://github.com/jackmedda/Tutoraggio-Ingegneria-del-Software_IADA_/lezioni/2-Object Oriented Programming/oop.ipynb)     | Object Oriented Programming | 29/04/2024 |
+| Lezione                                                                                                                        | Titolo                      | Data       |
+|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------|------------|
+| [0](https://jackmedda.github.io/Tutoraggio-Ingegneria-del-Software_IADA_/lezioni/0-Introduzione/)                              | Introduzione                | 10/04/2024 |
+| [1](https://jackmedda.github.io/Tutoraggio-Ingegneria-del-Software_IADA_/lezioni/1-SWE%20e%20Qualita%20del%20Codice)           | SWE e Qualità del Codice    | 10/04/2024 |
+| [2](https://github.com/jackmedda/Tutoraggio-Ingegneria-del-Software_IADA_/blob/main/lezioni/2-Object%20Oriented%20Programming/oop.ipynb) | Object Oriented Programming | 29/04/2024 |
 
 </div>
 
