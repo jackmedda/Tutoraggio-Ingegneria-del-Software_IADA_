@@ -325,3 +325,6 @@ index.html
 
 # env
 .env
+
+# Jupyter
+.ipynb_checkpoints
